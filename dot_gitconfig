@@ -43,8 +43,8 @@
 	tags = "tag --list --sort=-v:refname"
     alias = "!git config --list | egrep '^alias.+' | sed -e 's/^alias\\.//' | sed -e 's/^[^=]*=/\\'$'\\033[31m&\\033[(B\\033[m/'"
 [user]
-	email = metalg0su@gmail.com
-	name = metalg0su
+	email = rlarkdtks8713@gmail.com
+	name = kangsankim
 [core]
 	editor = vim
 	quotepath = false
@@ -76,8 +76,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[credential]
-	helper = osxkeychain
 [rebase]
 	instructionFormat = (%an <%ae>) %s
 [log]
